@@ -1,14 +1,12 @@
+Tic Tac Toe
+game build to play.
+easy prooject .Tic Tac Toe is a simple and classic two-player game. The game is played on a 3x3 grid. Players take turns marking a space in the grid with their symbol: either an "X" or an "O". The goal is to be the first player to get three of your symbols in a row—horizontally, vertically, or diagonally.
+Here are the key points:
+
+It's great for quick, strategic fun! If you'd like, I can guide you in coding a simple Tic Tac Toe game in Java. Let me know if you're up for the challenge.
+
 import java.util.Scanner;
 
-public class tictactoe{
-    public static void main(){
-        char[][] board = new char[3][3];
-        for(int row = 0;row<board.length;row++){
-            for(int col=0;col<board[row].length;col++){
-                board[row][col] = ' ';
-
-            }
-        }
         char player = 'X';
         boolean gameOver = false;
         Scanner sc = new Scanner(System.in);
@@ -61,10 +59,15 @@ public class tictactoe{
             }
             System.out.println( );
         }
+        public class tictactoe{
+    public static void main(){
+        char[][] board = new char[3][3];
+        for(int row = 0;row<board.length;row++){
+            for(int col=0;col<board[row].length;col++){
+                board[row][col] = ' ';
 
-
-
+            }
+        }
     }
-} 
-    
 }
+        
